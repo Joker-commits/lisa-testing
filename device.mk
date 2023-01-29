@@ -63,7 +63,10 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libvolumelistener
+    libvolumelistener \
+    tinymix \
+    libbt-vendor \
+    libldacBT_bco
 
 PRODUCT_PACKAGES += \
     audioadsprpcd \
