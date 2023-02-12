@@ -56,6 +56,7 @@ AUDIO_FEATURE_ENABLED_GKI := true
 AUDIO_FEATURE_ENABLED_HDMI_SPK := true
 AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
 
+AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 
 USE_CUSTOM_AUDIO_POLICY := 1
@@ -83,6 +84,7 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/c2_manifest_vendor.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/dolby.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
 
 # Init
