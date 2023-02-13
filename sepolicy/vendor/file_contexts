@@ -17,7 +17,6 @@
 /data/vendor/dolby(/.*)?   u:object_r:vendor_data_file:s0
 
 # Dolby
-/data/vendor/dolby(/.*)?		                                                u:object_r:vendor_data_file:s0
 /vendor/bin/hw/dolbycodec2			                                            u:object_r:mediacodec_exec:s0
 
 # Fingerprint
